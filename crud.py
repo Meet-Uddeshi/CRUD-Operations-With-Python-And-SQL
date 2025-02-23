@@ -7,10 +7,10 @@ def main():
     
 # Step 3 => Details of database and connection
     database_connection = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Madhav@123",
-        database="crud"
+        host="Hosting",
+        user="Your Database Username",
+        password="Your Database Password",
+        database="Database Name"
     )
     database_cursor = database_connection.cursor()
     print("Connection established")
